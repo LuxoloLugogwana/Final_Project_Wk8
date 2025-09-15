@@ -32,7 +32,7 @@ project-folder/
 
 ## Deployment
 The website is deployed and accessible at: 
-[Lemon Motors Live Demo](https://your-deployment-link-here.com)
+[Lemon Motors Live Demo](https://luxololugogwana.github.io/Final_Project_Wk8/)
 
 *Note: Replace "https://your-deployment-link-here.com" with your actual deployment URL*
 
