@@ -34,8 +34,6 @@ project-folder/
 The website is deployed and accessible at: 
 [Lemon Motors Live Demo](https://luxololugogwana.github.io/Final_Project_Wk8/)
 
-*Note: Replace "https://your-deployment-link-here.com" with your actual deployment URL*
-
 ## Setup Instructions
 1. Clone or download all project files
 2. Ensure all image and video assets are in the same directory as the HTML file
