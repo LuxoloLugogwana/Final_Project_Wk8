@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+
+}
+
+body{
+    /*Prevents the page from scrolling left and right*/
+    overflow-x: hidden;
+}
+
+h1{
+    font: bold 60px magneto, papyrus;
+    width: 100%;
+}
+
+h2{
+    font: bold 48px arial, 'Cooper Black';
+}
+
+h3{
+    font: bold 40px Arial;
+}
+
+h4 {
+    text-decoration: underline;
+    text-decoration-color: #E2BA1B;
+    text-decoration-thickness: 3px;
+    width: 100%;
+}
+
+/*the # means id */
+#top-row {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: #1D2329;
+    color: #FEFEFF;
+    position: fixed;
+}
+
+#site-logo{
+    height: 125px;
+    width: 300px;
+    margin: 10px;
+}
+
+#footer-logo {
+    height: 100px;
+    width: 175px;
+    /*margin: 10px;*/
+}
+
+#top-nav > li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20pt;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FEFEFF;
+}
+
+/*the . means class */
+.active-page {
+    background-color: #9AC025;
+}
+
+/* Pseudo-class called :hover */
+li :hover{
+    color: #E2BA1B;
+}
+
+.button {
+    background-color: #9AC025;
+    color: #FEFEFF;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.button :hover {
+        background-color: red;
+    }
+
+.call-to-action{
+    padding: 20px;
+    font: bold 16px arial;
+}
+
+.call-to-action:hover{
+    transform: scale(150%);
+}
+
+.btn-full{
+    width: 100%;
+}
+
+.btn-half {
+    width: 40%;
+}
+
+#landing {
+    /*Styling for the top-most banner*/
+    width: 100%;
+    height: 90vh;
+    background-color: #9AC025;
+    background-image: url("benz3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#banner-text {
+    width: 100%;
+    height: auto;
+    padding: 300px 300px 300px 50%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.dark-text {
+    color: rgb(1, 15, 15);
+}
+
+.white-text {
+    color: #FEFEFF;
+}
+
+.black-text {
+    color: #1D2329;
+}
+
+.green-text {
+    color: #3e4e15;
+}
+
+.yellow-text{
+    color:#E2BA1B;
+}
+
+#Featured {
+    width: 100%;
+    height:30vh;
+    padding-bottom: 250px;
+    margin: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #87ad5b;
+}
+
+.floating {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+#Pitch {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    background-color:#F1F8E9;
+    background-image:url("../images/freedom.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#specializing {
+    height: 200px;
+    width: 100%;
+    background-color: #FEFEFF;
+    padding-bottom: 170px;
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#specializing-contact{
+    height: 200px;
+    width: 100%;
+    background-color: #FEFEFF;
+    padding-bottom: 300px;
+    margin:25px;
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#companylist {
+    display: flex;
+    flex-direction:row;
+    align-content:space-around;
+}
+
+.companylogo {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.page-identifier {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #9AC025;
+    width: 100%;
+    height: 55vh;
+    padding: 15px;
+    background-image: url("../images/bentley logo.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.overlay-1{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 50%;
+    top: 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.table-image{
+    width: 300px;
+    height: 300px;
+}
+
+.floating-table {
+    border-collapse: collapse;
+    box-shadow: rgba(0,0,0,0.5) 5px 5px;
+    padding: 20px;
+}
+
+.estimate-table{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+input[type="text"], input[type="email"], select {
+    border-radius: 5px;
+    font-size: 18pt;
+    padding: 2px 3px;
+    text-align: right;
+}
+
+
+fieldset, legend, .RightSide {
+    text-align: center;
+}
+
+legend{
+    text-align:center;
+}
+
+#contact-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-col{
+    width: 50%;
+}
+
+#contact-form{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+#contact-form > div {
+    width: 75%;
+    margin: auto auto;
+}
+
+#contact-form > div > .input-full{
+    width: 100%;
+}
+
+#contact-form > div > .input-half {
+    width: 45%;
+}
+
+footer {
+    display: flex; /*Makes the footer responsive (react to different screen-sizes)*/
+    flex-direction: column; /*Stacks the contents of the footer into a column*/
+    align-content: center;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #1D2329;
+    color: #FEFEFF;
+    font-family: 'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+    font-size: 5pt;
+}
+
+#footer-sectioner {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: start;
+    width: 90%;
+    padding: 10px;
+    color: #FEFEFF;
+}
+
+.footer-section {
+    width: 25%;
+    height: 100%;
+    color: #FEFEFF;
+}
+
+.footer-section > ul {
+    list-style-type: none;
+    color: #FEFEFF;
+}
+
+
+.socialLogo {
+    width: 25px;
+    height: 25px;
+}
+
+#footerCustomerEmail{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FEFEFF;
+}
+
+a:hover{
+    text-decoration: dashed;
+
+}
+
+.large{
+    font-size:121.5px;
+    width:100%;
+}
+
+#selectPayPeriod {
+    width: 225px;
+    font-size: 18pt;
+    text-align:right;
+}
+
